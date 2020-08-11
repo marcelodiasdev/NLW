@@ -1,0 +1,48 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+
+    height: 100vh;
+}
+
+body {
+
+    background: teal;  /* Cor de fundo do study */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+html,
+body {
+    height: 100vh;
+
+}
+
+body,
+input,
+button,
+textarea {
+
+    font-weight: 500;
+    font-family: Poppins;
+    font-size: 1.6rem;
+    color: white; /* cor das letras dos texto */
+}
+
+#container {
+    width: 90vw;
+    max-width: 700px;
+}
+
+@media (min-width:700px) {
+    :root {
+        font-size: 50%;
+    }
+}
